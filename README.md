@@ -1,30 +1,30 @@
 #### REST API для социальной cети yatube. Программный интерфейс предназначенный для управления сетью без применения web-браузера.
 ------
 #### Как запустить проект:
-* Клонировать репозиторий и перейти в него в командной строке:
+* _Клонировать репозиторий и перейти в него в командной строке_:
 ```
 git clone https://github.com/Dmitriy-kir/api_final_yatube.git
 cd api_final_yatube
 ```
-* Cоздать и активировать виртуальное окружение:
+* _Cоздать и активировать виртуальное окружение_:
 ```
 python -m venv venv
 source venv/bin/activate
 ```
-* Установить зависимости из файла requirements.txt:
+* _Установить зависимости из файла requirements.txt_:
 ```
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
-* Для работы с JWT в Django установить и подключить две библиотеки Djoser и Simple JWT:
+* _Для работы с JWT в Django установить и подключить две библиотеки Djoser и Simple JWT_:
 ```
 pip install djoser djangorestframework-simplejwt==4.7.2
 ```
-* Выполнить миграции из дериктории yatube_api:
+* _Выполнить миграции из дериктории yatube_api_:
 ```
 python manage.py migrate
 ```
-* Запустить проект:
+* _Запустить проект_:
 ```
 python manage.py runserver
 ```
@@ -34,18 +34,18 @@ http://127.0.0.1:8000/redoc/
 ```
 #### Требования:
 ---
-Python 3.7 и выше
+___Python 3.7 и выше___
 
-Django framework 2.2.16
+___Django framework 2.2.16___
 
-Django Rest framework 3.12.4
+___Django Rest framework 3.12.4___
 
-Django Rest framework simplejwt 4.7.2
+___Django Rest framework simplejwt 4.7.2___
 
-Pillow 8.3.1
+___Pillow 8.3.1___
 
-PyJWT 2.1.0
+___PyJWT 2.1.0___
 
-requests 2.26.0
+___requests 2.26.0___
 
-djoser 2.1.0
+___djoser 2.1.0___
