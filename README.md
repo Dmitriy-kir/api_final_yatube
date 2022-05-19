@@ -13,7 +13,7 @@ source venv/bin/activate
 ```
 * Установить зависимости из файла requirements.txt:
 ```
-python -m pip install --upgrade pip setuptools
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 * Для работы с JWT в Django установить и подключить две библиотеки Djoser и Simple JWT:
